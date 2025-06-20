@@ -1,0 +1,7 @@
+name: Admin
+email: admin@onigirico.com
+messages:
+Bob!
+Jeśli to czytasz to zrób coś z tym przepisem na onigiri z krewetkami. Dlaczego jest on widoczny dla wszystkich! Naucz się w końcu jak działa .htaccess
+
+Ps. pamiętaj o sekretnym składniku u siebie w folderze domowym. 

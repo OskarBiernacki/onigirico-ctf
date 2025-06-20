@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OniGiriCo - Najlepsze Onigiri</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body onload="onSuccesSend()">
+    <header>
+        <div class="container">
+            <h1>🍙 OniGiriCo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">O nas</a></li>
+                    <li><a href="#products">Produkty</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Najsmaczniejsze onigiri prosto z Japonii!</h2>
+            <p>Spróbuj naszych wyjątkowych smaków, które przeniosą Cię do Kraju Kwitnącej Wiśni. Tylko naturalne składniki!</p>
+            <a href="#products" class="btn">Zamów teraz</a>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Kim jesteśmy?</h2>
+                <p>OniGiriCo to firma powstała z miłości do japońskiej kuchni i jej niezwykłej prostoty, smaku oraz filozofii jedzenia. </p>
+                <p>Wierzymy, że jedzenie to coś więcej niż tylko zaspokajanie głodu – to sposób na łączenie ludzi, odkrywanie nowych kultur i celebrowanie codziennych chwil.</p>
+                <p>Naszą misją jest wprowadzenie smaku Japonii na polskie stoły, przy jednoczesnym zachowaniu autentyczności i najwyższej jakości składników.</p>
+            </div>
+        </section>
+        
+        <section id="why-us">
+            <div class="container">
+                <h2>Co nas wyróżnia?</h2>
+                <p>Nasze onigiri – małe, ręcznie formowane kulki ryżu – przygotowywane są według tradycyjnych japońskich receptur, które przekazywane były z pokolenia na pokolenie. Każdy składnik, od idealnie ugotowanego ryżu, przez aromatyczne przyprawy, aż po wyjątkowe nadzienia, jest starannie dobierany, aby dostarczyć Ci prawdziwego smaku Japonii.</p>
+                <p>Jednak tradycja to tylko jedna strona naszej historii. W OniGiriCo wierzymy, że jedzenie powinno ewoluować wraz z upodobaniami i potrzebami naszych klientów. Dlatego do naszych tradycyjnych przepisów dodajemy nutę nowoczesności – eksperymentujemy z nowymi smakami, tworzymy unikalne połączenia składników i nie boimy się wykraczać poza utarte schematy. Dzięki temu nasze onigiri są nie tylko klasyczne, ale też pełne świeżych, innowacyjnych pomysłów.</p>
+            </div>
+        </section>
+        
+        <section id="products">
+            <div class="container">
+                <h2>Nasze produkty</h2>
+                <div class="product-list">
+                    <div class="product">
+                        <h3>Onigiri z łososiem</h3>
+                        <p>Klasyczny smak pełen aromatu. </br><b>Cena: 10 PLN</b></p>
+                    </div>
+                    <div class="product">
+                        <h3>Onigiri z tuńczykiem</h3>
+                        <p>Doskonały wybór dla miłośników ryb. </br><b>Cena: 12 PLN</b></p>
+                    </div>
+                    <div class="product">
+                        <h3>Onigiri wegańskie</h3>
+                        <p>Dla tych, którzy kochają roślinne smaki. </br><b>Cena: 9 PLN</b></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Skontaktuj się z nami</h2>
+                <form method="post" action="submit.php">
+                    <label for="name">Imię:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Wiadomość:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 OniGiriCo. Wszystkie prawa zastrzeżone.</p>
+            <p>CTF-PJATK</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script>
+    function getUrlParameter(name) {
+        const params = new URLSearchParams(window.location.search);
+        return params.get(name);
+    }
+    function onSuccesSend(){
+        const status = getUrlParameter('status');
+        if (status === 'success') {
+            alert('Wysłano!');
+        }
+    }
+</script>

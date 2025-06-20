@@ -1,0 +1,5 @@
+name: Michał
+email: michal.zam@interia.pl
+messages:
+Wasze onigiri są świetne, ale interesuje mnie, czy oferujecie opcję wegańską?
+Jakie składniki są używane w waszych onigiri?

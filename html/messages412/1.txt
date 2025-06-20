@@ -1,0 +1,5 @@
+name: Julia
+email: julia.smith@yahoo.com
+messages:
+Pytanie dotyczące składników — czy wasze onigiri zawierają gluten?
+Mam uczulenie i chcę upewnić się, że mogę bezpiecznie jeść wasze produkty.

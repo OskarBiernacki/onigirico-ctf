@@ -1,0 +1,5 @@
+name: Kosmi
+email: kosmicznykrol@gram.pl
+messages:
+Lubię grać i jeść wasze onigiri.
+Czy jest możliwość zniżki?

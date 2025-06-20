@@ -1,0 +1,5 @@
+name: Krzysiek
+email: krzysiek@outlook.com
+messages:
+Czy planujecie otworzyć sklep stacjonarny?
+Byłoby fajnie, gdyby onigiri były dostępne na wynos w mojej okolicy.

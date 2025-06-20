@@ -1,0 +1,5 @@
+name: Agata
+email: agata.fan@wp.pl
+messages:
+Zamówiłam kilka razy i zawsze byłam zadowolona, ale chciałabym zapytać, czy mogę zamówić większe porcje?
+Czy macie jakieś promocje na większe zamówienia?
