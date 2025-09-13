@@ -1,5 +1,5 @@
 name: Agata
 email: agata.fan@wp.pl
 messages:
-Zamówiłam kilka razy i zawsze byłam zadowolona, ale chciałabym zapytać, czy mogę zamówić większe porcje?
-Czy macie jakieś promocje na większe zamówienia?
+I've ordered several times and have always been satisfied, but I'd like to ask if I can order larger portions?
+Do you have any promotions for larger orders?

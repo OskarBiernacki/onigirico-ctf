@@ -6,7 +6,7 @@ if (!isset($_COOKIE['admin_authenticated']) || $_COOKIE['admin_authenticated'] !
 ?>
 
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,7 +21,7 @@ if (!isset($_COOKIE['admin_authenticated']) || $_COOKIE['admin_authenticated'] !
         <table>
             <thead>
                 <tr>
-                    <th>Wybierz</th>
+                    <th>Select</th>
                     <th>Email</th>
                 </tr>
             </thead>
@@ -48,12 +48,12 @@ if (!isset($_COOKIE['admin_authenticated']) || $_COOKIE['admin_authenticated'] !
                             }
                         }
                     } else {
-                        echo '<li>Folder "messages" nie istnieje.</li>';
+                        echo '<li>The "messages" folder does not exist.</li>';
                     }
                 ?>
             </tbody>
         </table>
-        <button type="submit">Przeczytaj wiadomość</button>
+        <button type="submit">Read message</button>
         </form>
         <?php
             if (isset($_GET['file'])) {
@@ -62,12 +62,12 @@ if (!isset($_COOKIE['admin_authenticated']) || $_COOKIE['admin_authenticated'] !
                 
                 if (file_exists($path)) {
                     echo '<div class="file-content">';
-                    echo "<strong>Wiadomość:</strong><br>";
+                    echo "<strong>Message:</strong><br>";
                     echo nl2br(htmlspecialchars(file_get_contents($path)));
                     echo '</div>';
                 } else {
                     echo '<div class="file-content">';
-                    echo "<strong>Błąd:</strong> Plik nie istnieje!";
+                    echo "<strong>Error:</strong> File does not exist!";
                     echo '</div>';
                 }
             }else{

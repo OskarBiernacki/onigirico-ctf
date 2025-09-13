@@ -1,5 +1,5 @@
 name: Krzysiek
 email: krzysiek@outlook.com
 messages:
-Czy planujecie otworzyć sklep stacjonarny?
-Byłoby fajnie, gdyby onigiri były dostępne na wynos w mojej okolicy.
+Are you planning to open a brick-and-mortar store?
+It would be great if onigiri were available for takeout in my area.
